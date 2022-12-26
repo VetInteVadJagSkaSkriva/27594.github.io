@@ -1,0 +1,13 @@
+
+<script>
+    var cancer = window.open('oh-yeah_4.mp3','','HEIGHT=10,WIDTH=10');
+    function randomBetweenRange(min, max) {
+    return Math.random() * (max - min) + min;
+    }
+    window.moveTo(randomBetweenRange(0,screen.width), randomBetweenRange(0,screen.height));
+    cancer.moveTo(randomBetweenRange(0,screen.width), randomBetweenRange(0,screen.height));
+    function OpenWindow() {
+        return window.open('annoy.html','','HEIGHT=100,WIDTH=100');
+    } 
+   setInterval(OpenWindow, 1000);
+</script>
